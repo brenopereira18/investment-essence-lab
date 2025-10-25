@@ -47,7 +47,7 @@ const Hero = () => {
             <Button
               size="lg"
               variant="outline"
-              className="border-white/30 text-white hover:bg-white/10 text-lg px-8 py-6"
+              className="border-white/30 bg-transparent text-white hover:bg-white/10 hover:border-white/50 text-lg px-8 py-6"
               onClick={() => {
                 const element = document.getElementById("servicos");
                 element?.scrollIntoView({ behavior: "smooth" });
