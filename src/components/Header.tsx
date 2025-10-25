@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Menu, TrendingUp } from "lucide-react";
+import { Menu, TrendingUp, Briefcase, Award, TrendingUp as TrendingIcon, Phone } from "lucide-react";
 import { useState } from "react";
 
 const Header = () => {
@@ -59,32 +59,56 @@ const Header = () => {
                 <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-[300px]">
-              <div className="flex flex-col gap-6 mt-8">
+            <SheetContent side="right" className="w-[320px] sm:w-[380px]">
+              <div className="flex flex-col gap-2 mt-12">
+                <div className="mb-4">
+                  <div className="flex items-center gap-2 mb-6">
+                    <div className="bg-gradient-primary p-2 rounded-lg">
+                      <TrendingUp className="h-6 w-6 text-primary-foreground" />
+                    </div>
+                    <span className="text-xl font-bold text-foreground">Patrimônio</span>
+                  </div>
+                </div>
+
                 <button
                   onClick={() => scrollToSection("servicos")}
-                  className="text-left text-lg font-medium text-foreground hover:text-primary transition-smooth"
+                  className="flex items-center gap-3 text-left px-4 py-3 rounded-lg hover:bg-muted transition-smooth group"
                 >
-                  Serviços
+                  <Briefcase className="h-5 w-5 text-primary" />
+                  <span className="text-base font-medium text-foreground group-hover:text-primary transition-smooth">
+                    Serviços
+                  </span>
                 </button>
+
                 <button
                   onClick={() => scrollToSection("diferenciais")}
-                  className="text-left text-lg font-medium text-foreground hover:text-primary transition-smooth"
+                  className="flex items-center gap-3 text-left px-4 py-3 rounded-lg hover:bg-muted transition-smooth group"
                 >
-                  Diferenciais
+                  <Award className="h-5 w-5 text-primary" />
+                  <span className="text-base font-medium text-foreground group-hover:text-primary transition-smooth">
+                    Diferenciais
+                  </span>
                 </button>
+
                 <button
                   onClick={() => scrollToSection("resultados")}
-                  className="text-left text-lg font-medium text-foreground hover:text-primary transition-smooth"
+                  className="flex items-center gap-3 text-left px-4 py-3 rounded-lg hover:bg-muted transition-smooth group"
                 >
-                  Resultados
+                  <TrendingIcon className="h-5 w-5 text-primary" />
+                  <span className="text-base font-medium text-foreground group-hover:text-primary transition-smooth">
+                    Resultados
+                  </span>
                 </button>
-                <Button
-                  onClick={() => scrollToSection("contato")}
-                  className="bg-gradient-primary hover:opacity-90 transition-smooth shadow-elegant w-full"
-                >
-                  Fale Conosco
-                </Button>
+
+                <div className="mt-6 pt-6 border-t border-border">
+                  <Button
+                    onClick={() => scrollToSection("contato")}
+                    className="bg-gradient-primary hover:opacity-90 transition-smooth shadow-elegant w-full h-12 text-base"
+                  >
+                    <Phone className="h-4 w-4 mr-2" />
+                    Fale Conosco
+                  </Button>
+                </div>
               </div>
             </SheetContent>
           </Sheet>
