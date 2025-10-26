@@ -57,18 +57,18 @@ const Hero = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-3 gap-8 mt-16 pt-16 border-t border-white/10">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 mt-12 sm:mt-16 pt-12 sm:pt-16 border-t border-white/10">
             <div className="text-center">
               <div className="text-3xl sm:text-4xl font-bold text-white mb-2">R$ 2B+</div>
-              <div className="text-white/70 text-sm">Em ativos sob gestão</div>
+              <div className="text-white/70 text-sm sm:text-base">Em ativos sob gestão</div>
             </div>
             <div className="text-center">
               <div className="text-3xl sm:text-4xl font-bold text-white mb-2">500+</div>
-              <div className="text-white/70 text-sm">Clientes atendidos</div>
+              <div className="text-white/70 text-sm sm:text-base">Clientes atendidos</div>
             </div>
             <div className="text-center">
               <div className="text-3xl sm:text-4xl font-bold text-white mb-2">15+</div>
-              <div className="text-white/70 text-sm">Anos de experiência</div>
+              <div className="text-white/70 text-sm sm:text-base">Anos de experiência</div>
             </div>
           </div>
         </div>
