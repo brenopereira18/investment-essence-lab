@@ -30,9 +30,9 @@ const stats = [
 
 const Results = () => {
   return (
-    <section id="resultados" className="py-20 lg:py-32">
+    <section id="resultados" className="py-10 lg:py-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <div className="inline-block mb-4 px-4 py-2 bg-primary/10 rounded-full border border-primary/20">
             <span className="text-primary font-semibold text-sm">Resultados Comprovados</span>
           </div>
@@ -65,7 +65,7 @@ const Results = () => {
           })}
         </div>
 
-        <div className="mt-16 bg-gradient-primary rounded-2xl p-8 lg:p-12 text-center shadow-elegant">
+        <div className="mt-12 bg-gradient-primary rounded-2xl p-8 lg:p-12 text-center shadow-elegant">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4">
             Pronto Para Transformar Suas Finanças?
           </h3>

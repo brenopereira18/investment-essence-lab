@@ -25,14 +25,14 @@ const differentials = [
 
 const Differentials = () => {
   return (
-    <section id="diferenciais" className="py-20 lg:py-32 bg-gradient-dark relative overflow-hidden">
+    <section id="diferenciais" className="py-10 lg:py-24 bg-gradient-dark relative overflow-hidden">
       {/* Efeitos de fundo */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-1/4 right-10 w-96 h-96 bg-primary rounded-full blur-3xl"></div>
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <div className="inline-block mb-4 px-4 py-2 bg-primary/20 rounded-full border border-primary/30">
             <span className="text-primary font-semibold text-sm">Por Que Escolher</span>
           </div>

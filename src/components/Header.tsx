@@ -20,7 +20,7 @@ const Header = () => {
             <div className="bg-gradient-primary p-2 rounded-lg">
               <TrendingUp className="h-6 w-6 text-primary-foreground" />
             </div>
-            <span className="text-xl sm:text-2xl font-bold text-dark">Patrimônio</span>
+            <span className="text-xl sm:text-2xl font-bold text-dark">Gard Capital</span>
           </div>
 
           <nav className="hidden md:flex items-center gap-8">
@@ -47,7 +47,7 @@ const Header = () => {
           <div className="hidden md:block">
             <Button
               onClick={() => scrollToSection("contato")}
-              className="bg-gradient-primary hover:opacity-90 transition-smooth shadow-elegant"
+              className="bg-primary hover:opacity-90 transition-smooth shadow-elegant"
             >
               Fale Conosco
             </Button>
@@ -59,20 +59,20 @@ const Header = () => {
                 <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-[320px] sm:w-[380px]">
-              <div className="flex flex-col gap-2 mt-12">
+            <SheetContent side="right" className="w-[260px] sm:w-[340px]">
+              <div className="flex flex-col gap-2 mt-6">
                 <div className="mb-4">
-                  <div className="flex items-center gap-2 mb-6">
+                  <div className="flex items-center gap-2">
                     <div className="bg-gradient-primary p-2 rounded-lg">
                       <TrendingUp className="h-6 w-6 text-primary-foreground" />
                     </div>
-                    <span className="text-xl font-bold text-foreground">Patrimônio</span>
+                    <span className="text-xl font-bold text-foreground">Gard Capital</span>
                   </div>
                 </div>
 
                 <button
                   onClick={() => scrollToSection("servicos")}
-                  className="flex items-center gap-3 text-left px-4 py-3 rounded-lg hover:bg-muted transition-smooth group"
+                  className="flex items-center gap-3 text-left px-4 py-2 rounded-lg hover:bg-muted transition-smooth group"
                 >
                   <Briefcase className="h-5 w-5 text-primary" />
                   <span className="text-base font-medium text-foreground group-hover:text-primary transition-smooth">
@@ -82,7 +82,7 @@ const Header = () => {
 
                 <button
                   onClick={() => scrollToSection("diferenciais")}
-                  className="flex items-center gap-3 text-left px-4 py-3 rounded-lg hover:bg-muted transition-smooth group"
+                  className="flex items-center gap-3 text-left px-4 py-2 rounded-lg hover:bg-muted transition-smooth group"
                 >
                   <Award className="h-5 w-5 text-primary" />
                   <span className="text-base font-medium text-foreground group-hover:text-primary transition-smooth">
@@ -92,7 +92,7 @@ const Header = () => {
 
                 <button
                   onClick={() => scrollToSection("resultados")}
-                  className="flex items-center gap-3 text-left px-4 py-3 rounded-lg hover:bg-muted transition-smooth group"
+                  className="flex items-center gap-3 text-left px-4 py-2 rounded-lg hover:bg-muted transition-smooth group"
                 >
                   <TrendingIcon className="h-5 w-5 text-primary" />
                   <span className="text-base font-medium text-foreground group-hover:text-primary transition-smooth">
@@ -100,10 +100,10 @@ const Header = () => {
                   </span>
                 </button>
 
-                <div className="mt-6 pt-6 border-t border-border">
+                <div className="mt-2 pt-6 border-t border-border">
                   <Button
                     onClick={() => scrollToSection("contato")}
-                    className="bg-gradient-primary hover:opacity-90 transition-smooth shadow-elegant w-full h-12 text-base"
+                    className="bg-primary hover:opacity-90 transition-smooth shadow-elegant w-full h-12 text-base"
                   >
                     <Phone className="h-4 w-4 mr-2" />
                     Fale Conosco

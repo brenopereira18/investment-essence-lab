@@ -5,17 +5,8 @@ const Footer = () => {
     <footer className="bg-dark text-white py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
-          <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="bg-gradient-primary p-2 rounded-lg">
-                <TrendingUp className="h-6 w-6 text-white" />
-              </div>
-              <span className="text-2xl font-bold">Patrimônio</span>
-            </div>
-            <p className="text-white/70 mb-4 max-w-md">
-              Consultoria especializada em investimentos, planejamento financeiro e gestão patrimonial
-              para você alcançar seus objetivos.
-            </p>
+          <div className="md:col-span-2">           
+            
             <p className="text-sm text-white/50">
               © 2024 Patrimônio Consultoria. Todos os direitos reservados.
             </p>

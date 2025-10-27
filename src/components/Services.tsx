@@ -30,9 +30,9 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="servicos" className="py-20 lg:py-32 bg-muted/30">
+    <section id="servicos" className="py-10 lg:py-24 bg-muted/30">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-10">
           <div className="inline-block mb-4 px-4 py-2 bg-primary/10 rounded-full border border-primary/20">
             <span className="text-primary font-semibold text-sm">Nossos Serviços</span>
           </div>
@@ -53,7 +53,7 @@ const Services = () => {
                 className="border-border hover:shadow-elegant transition-smooth hover:-translate-y-1 bg-card"
               >
                 <CardHeader>
-                  <div className="w-14 h-14 bg-gradient-primary rounded-lg flex items-center justify-center mb-4">
+                  <div className="w-14 h-14 bg-gradient-primary rounded-lg flex items-center justify-center mb-2">
                     <Icon className="h-7 w-7 text-white" />
                   </div>
                   <CardTitle className="text-2xl text-dark">{service.title}</CardTitle>
