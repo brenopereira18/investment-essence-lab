@@ -57,18 +57,18 @@ const Hero = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 sm:gap-8 mt-12 sm:mt-16 pt-8 sm:pt-16 border-t border-white/10">
-            <div className="text-center py-4 sm:py-0">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-12 sm:mt-16">
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6 text-center hover:bg-white/10 hover:border-primary/30 transition-smooth">
               <div className="text-4xl sm:text-4xl font-bold text-white mb-2">R$ 2B+</div>
-              <div className="text-white/70 text-base sm:text-base">Em ativos sob gestão</div>
+              <div className="text-white/70 text-base">Em ativos sob gestão</div>
             </div>
-            <div className="text-center py-4 sm:py-0 border-t sm:border-t-0 border-white/10">
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6 text-center hover:bg-white/10 hover:border-primary/30 transition-smooth">
               <div className="text-4xl sm:text-4xl font-bold text-white mb-2">500+</div>
-              <div className="text-white/70 text-base sm:text-base">Clientes atendidos</div>
+              <div className="text-white/70 text-base">Clientes atendidos</div>
             </div>
-            <div className="text-center py-4 sm:py-0 border-t sm:border-t-0 border-white/10">
+            <div className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg p-6 text-center hover:bg-white/10 hover:border-primary/30 transition-smooth">
               <div className="text-4xl sm:text-4xl font-bold text-white mb-2">15+</div>
-              <div className="text-white/70 text-base sm:text-base">Anos de experiência</div>
+              <div className="text-white/70 text-base">Anos de experiência</div>
             </div>
           </div>
         </div>
